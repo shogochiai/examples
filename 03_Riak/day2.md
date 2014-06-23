@@ -163,7 +163,7 @@ http://localhost:10018/mapred --data @-
   "query":[
     {"map":{
       "language":"javascript",
-      "bucket":"my_functions",
+      "bucket":"my_function",
       "key":"map_capacity"
     }},
     {"reduce":{
@@ -192,7 +192,7 @@ http://localhost:10018/mapred --data @-
 {
   "inputs":{
     "bucket":"cages",
-    "key_filters":[["eq"], ["2"]]
+    "key_filters":[["eq", "2"]]
   },
   "query":[
     {"link":{
