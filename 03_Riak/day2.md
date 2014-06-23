@@ -113,7 +113,7 @@ curl -X POST http://localhost:10018/mapred \
   "query":[
     {"map":{
       "language":"javascript",
-      "name":"Riak.mapValueJson"
+      "name":"Riak.mapValuesJson"
     }}
   ]
 }
